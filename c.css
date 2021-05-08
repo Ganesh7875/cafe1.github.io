@@ -1,0 +1,161 @@
+*{
+margin:0px;
+padding:0px;
+box-sizing:border-box;
+}
+
+body{
+font-family: 'Flamenco', cursive;  
+
+}
+
+header{
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("gg.jpg");
+height:100vh;
+background-size:cover;
+background-repeat:no-repeat;
+}
+
+
+.row{
+max-width:1180px
+margin:15px;
+
+}
+
+.logo{
+
+height:120px;
+width:auto;
+float:left;
+margin-top:7px;
+margin-left:20px;
+box-shadow: 5px 7px 7px red,-7px -10px 7px red;
+}
+
+
+.main-nav{
+float:right;
+
+}
+
+.main-nav li{
+display:inline-block;
+margin-top:70px;
+list-style:none;
+margin-right:50px;
+padding:7px;
+
+}
+
+
+.main-nav li a{
+
+
+text-decoration:none;
+text-transform:uppercase;
+font-size:30px;
+font-weight:100;
+color:white;
+
+}
+
+.main-nav li a:hover{
+
+border-bottom: 2px dotted #bf55ec;
+background-color:
+backgound-color:transparent;
+}
+
+.clearfix:after{
+content:".";
+visibility:hidden;
+display:block;
+height:0px;
+clear:both;
+
+}
+
+.main-content{
+width:1180px;
+
+margin-top:14%;
+margin-left:10%;
+}
+
+.main-content h1{
+
+color:#fff;
+font-size:60px;
+word-spacing:8px;
+letter-spacing:5px:
+margin-bottom:50px;
+
+}
+
+
+
+.btn{
+display:inline-block;
+padding:10px 30px;
+font-size:30px;
+text-decoration:none;
+text-transform:uppercase;
+backgound-color:transparent;
+margin-top:25px;
+transition: background-color 0.2s, border 0.2s, color 0.2s;
+
+}  
+
+
+.btn-full{
+backgound-color:transparent;
+color:purple;
+border:1px solid white;
+box-shadow: 5px 7px 7px red;
+
+}
+
+
+.btn-full:hover{
+background-color:white;
+}
+
+.btn-nav{
+backgound-color:transparent;
+border:1px solid white;
+margin-left:15px;
+color:red;
+box-shadow:15px 10px 7px purple;
+
+}
+.btn-nav:hover{
+background-color:purple;
+}
+
+.colorchange{
+animation: colorchange 1s infinite;
+}
+
+
+
+@keyframes colorchange
+{
+0%{color:red;}
+25%{color:purple;}
+50%{color:white;}
+100%{color:purple;}
+}
+
+@media only screen and (max-width:1180px){
+.main-content{width:100%;
+              padding:0 5%;  
+}
+
+}
+
+
+@media only screen and (max-width:895px){
+.main-content h1{font-size:45px;}
+
+}
